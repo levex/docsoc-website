@@ -1,0 +1,23 @@
+.stripe {
+  min-width: auto;
+}
+
+.container {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1050px) {
+  .header__blog__logo {
+    float: left;
+  }
+
+  .stripe {
+    min-width: 1000px;
+  }
+
+  .main {
+    margin-top: -90px;
+  }
+}

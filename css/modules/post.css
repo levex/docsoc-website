@@ -1,0 +1,143 @@
+.post {
+  position: relative;
+  padding: 0 15px 15px;
+  border-radius: 0;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+}
+
+.post:before,
+.post:after {
+  content: " ";
+  display: table;
+}
+
+
+.post__author {
+  display: none;
+}
+
+.post__subtitle {
+  color: #646d75;
+  font-weight: bold;
+  font-size: 13px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px
+}
+
+.post__date {
+  color: #adb4ba;
+}
+
+.post__cta {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post__cta__tagline,
+.post__cta__button {
+  display: block;
+}
+
+.post__cta__tagline {
+  color: #999;
+  font-family: "Motiva Sans", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.post__cta__button .btn {
+  width: 100%;
+}
+
+.post__footer {
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding: 15px 14px 0;
+  line-height: 54px;
+  font-size: 13px;
+  color: #868E95;
+}
+
+.post__footer__meta {
+  margin-top: -8px;
+}
+
+.post__footer__meta__tags .tag {
+  color: #868E95;
+}
+
+.post__image {
+  min-width: -webkit-calc(100% + 30px);
+  min-width: -moz-calc(100% + 30px);
+  min-width: calc(100% + 30px);
+  margin-left: -15px;
+}
+
+/* Desktop  */
+
+@media (min-width: 1050px) {
+  .post {
+    padding: 0 70px 20px 75px;
+    border-radius: 4px;
+  }
+
+  .post__author {
+    position: absolute;
+    top: 20px;
+    left: -40px;
+    display: block;
+  }
+
+  .post__author__avatar {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+
+  .post__cta {
+    display: table;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 25px;
+  }
+
+  .post__cta__tagline,
+  .post__cta__button {
+    display: table-cell;
+  }
+
+  .post__cta__tagline {
+    line-height: 36px;
+    text-align: left;
+  }
+
+  .post__cta__button {
+    width: 220px;
+    width: 220px;
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  .post__cta__button .btn {
+    display: inline-block;
+    width: auto;
+  }
+
+  .post__footer {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .post__footer__meta {
+    float: right;
+    margin-top: 0;
+  }
+
+  .post__image {
+    min-width: 1050px;
+    margin-left: -50px;
+  }
+}

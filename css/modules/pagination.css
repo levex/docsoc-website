@@ -1,0 +1,15 @@
+.pagination {
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 210px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/* Desktop  */
+
+@media (min-width: 1050px) {
+  .pagination {
+    margin-top: 0px;
+  }
+}

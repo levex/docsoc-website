@@ -1,0 +1,11 @@
+---
+layout: page
+---
+{% assign author = site.authors[page.author] %}
+
+{% for post in site.posts %}
+  {% if post.author == page.author %}
+    {% assign content = post.content %}
+    {% include article.html %}
+  {% endif %}
+{% endfor %}
