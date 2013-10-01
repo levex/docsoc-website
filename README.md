@@ -4,7 +4,7 @@
     $ bundle install
     $ jekyll serve --watch
 
-[http://localhost:4000/blog/index.html](http://localhost:4000/blog/index.html)
+[http://localhost:4000](http://localhost:4000)
 
 # Posts
 
