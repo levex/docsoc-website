@@ -1,0 +1,42 @@
+footer
+  #footer-content
+    ul.inline(style='text-align:center;')
+      li.small &copy; #{ locals.owner }
+      for item in locals.footer
+        li(class=(item.url == page.url)? "active" : "")
+          a(href=item.url, title=item.description)
+            | #{ item.name }
+
+
+//- scripts
+
+script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+//- local fallback
+//- script 
+//-   if(!window.jQuery) {
+//-     document.write('<script src="/script/jquery.min.js"></script>');
+//-   }
+
+script(src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js')
+//- script(src='/script/bootstrap.min.js')
+//- pure javascript search feature (searches feed.xml and returns results via ajax)
+//- script(src='/script/search.js')
+
+script(src='/script/jsprettify-all-latest.js')
+script
+  window.jsprettify.run();
+
+//- Google Analytics
+script
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32103756-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+//- Internet Defense League Cat Signal
+//- script(src="//dihq71mhvy8o7.cloudfront.net/js/banner-embed.js?v=1", type="text/javascript", charset="utf-8")

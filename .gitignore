@@ -1,6 +1,3 @@
-/_drafts
-/_site
-.bundle
+build
+node_modules
 .DS_Store
-.rvmrc
-.ruby-version

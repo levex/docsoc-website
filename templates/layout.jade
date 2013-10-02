@@ -1,0 +1,19 @@
+!!! 5
+html(lang='en')
+  head
+    block head
+      include head
+      title
+        block title
+          = locals.name
+  body.site
+    block header
+      include navbar
+
+    //- prettify tag is for jsprettify
+    .container.main(role='main')
+      #content.prettify
+        block content
+
+    block footer
+      include footer

@@ -1,0 +1,19 @@
+extends layout
+
+block prepend title
+  | #{ page.title } - 
+
+block content
+  include author
+  section#content
+    article.post
+      h1= page.title
+        small
+          br
+          mixin author(page.metadata.author)
+          |  (
+          = moment(page.date).format('D MMMM YYYY')
+          | )
+      section.content!= page.html
+    a(name='comment')
+    include comments
