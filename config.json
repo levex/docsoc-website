@@ -1,5 +1,4 @@
 {
-  "output": "./../",
   "plugins": [
     "./node_modules/wintersmith-stylus/",
     "./node_modules/wintersmith-livereload/"
@@ -43,7 +42,7 @@
      {
        "name": "Archive",
        "description": "",
-       "url": "/blog/archive/"
+       "url": "/archive/"
       }
     ]
   }

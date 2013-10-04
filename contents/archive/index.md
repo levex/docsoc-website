@@ -1,5 +1,0 @@
----
-template: archive.jade
----
-
-# Archive
