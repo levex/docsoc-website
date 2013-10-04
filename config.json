@@ -4,6 +4,10 @@
     "./node_modules/wintersmith-stylus/",
     "./node_modules/wintersmith-livereload/"
   ],
+  "require": {
+    "_": "underscore",
+    "moment": "moment"
+  },
   "ignore": [
     "**/.DS_Store"
   ],
@@ -12,27 +16,27 @@
     "name": "Imperial DoCSoc",
     "owner": "Imperial DoCSoc",
     "description": "Imperial College London, Department of Computing Society, &c",
-    "index_articles": 2,
+    "index_articles": 3,
     "menu": [
       {
        "name": "About",
        "description": "",
-       "url": "/about"
+       "url": "/about/"
       },
       {
        "name": "Blog",
        "description": "",
-       "url": "/blog"
+       "url": "/blog/"
       },
       {
        "name": "Sponsors",
        "description": "",
-       "url": "/sponsors"
+       "url": "/sponsors/"
       },
       {
        "name": "What's On",
        "description": "",
-       "url": "/whats-on"
+       "url": "/whats-on/"
       }
     ],
     "footer": [

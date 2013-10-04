@@ -5,6 +5,8 @@
   "description": "Personal website",
   "license": "MIT",
   "dependencies": {
+    "moment": "",
+    "underscore": "1.4.x",
     "wintersmith": "",
     "wintersmith-stylus": "",
     "wintersmith-livereload": ""
