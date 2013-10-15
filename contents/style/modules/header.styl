@@ -14,17 +14,13 @@
   margin-bottom: 15px;
 }
 
-.header {
-  display: none;
-}
-
 .footer {
   display: block;
   margin-top: -35px;
 }
 
 .header .stripe {
-  height: 200px;
+  height: 140px;
   background-color: #8c3939;
 }
 
@@ -70,7 +66,12 @@
   list-style: none;
   font-size: 20px;
   margin-bottom: 0px;
-  margin-top: 50px;
+  width: 440px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin: 0 auto;
+  float: none;
+  margin-top: 15px;
 }
 
 .navigation__link {
@@ -82,9 +83,19 @@
   border-bottom: 1px solid #fff;
 }
 
+.header__blog__logo {
+  float: none;
+  margin-bottom: 0px;
+}
+
 @media (min-width: 1050px) {
   .header {
     margin-bottom: 30px;
+  }
+
+
+  .header .stripe {
+    height: 200px;
   }
 
   .stripe, .header__blog {
@@ -109,9 +120,9 @@
     display: block;
   }
 
-  .footer {
-    display: none;
-    margin-top: 0px;
+  .navigation {
+    float: right;
+    margin-top: 50px;
   }
 
   .stripe__button {
