@@ -18,31 +18,31 @@
     "index_articles": 3,
     "menu": [
       {
-       "name": "About",
-       "description": "",
-       "url": "/about/"
+        "name": "About",
+        "description": "",
+        "url": "/about/"
       },
       {
-       "name": "Blog",
-       "description": "",
-       "url": "/blog/"
+        "name": "Blog",
+        "description": "",
+        "url": "/blog/"
       },
       {
-       "name": "Sponsors",
-       "description": "",
-       "url": "/sponsors/"
+        "name": "Sponsors",
+        "description": "",
+        "url": "/sponsors/"
       },
       {
-       "name": "What's On?",
-       "description": "",
-       "url": "/whats-on/"
+        "name": "What's On?",
+        "description": "",
+        "url": "/whats-on/"
       }
     ],
     "footer": [
-     {
-       "name": "Archive",
-       "description": "",
-       "url": "/archive/"
+      {
+        "name": "Archive",
+        "description": "",
+        "url": "/archive/"
       }
     ]
   }
