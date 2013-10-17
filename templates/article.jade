@@ -1,16 +1,17 @@
 extends layout
 
 block prepend title
-  | #{ page.title } - 
+  | #{ page.title } -
 
 block content
   include author
   section#content
     article.post
+      mixin author_avatar(page.metadata.author)
       h1= page.title
         small
           br
-          mixin author(page.metadata.author)
+          mixin author_info(page.metadata.author)
           |  (
           = moment(page.date).format('D MMMM YYYY')
           | )

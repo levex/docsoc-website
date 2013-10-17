@@ -1,6 +1,6 @@
 ---
 title: First testing blog post
-author: Michal Srb
+author: Peter Hamilton
 date: 2013-10-4 15:28
 template: article.jade
 ---

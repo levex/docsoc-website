@@ -1,7 +1,15 @@
-mixin author(authorName)
+mixin author_info(authorName)
   - var author = contents._authors[authorName + '.json']
   span.author
     if author
       a(href=author.metadata.url)= author.metadata.name
     else
       =authorName
+
+mixin author_avatar(authorName)
+  - var author = contents._authors[authorName + '.json']
+  if author
+    .post__author
+      .post__author__avatar
+        a(href=author.metadata.url)
+          img(src=("https://secure.gravatar.com/avatar/" + author.metadata.gravatar_hash + "?s=200"), alt=author.metadata.name, class="u-circle u-circle-shadowed", height="80", width="80")
