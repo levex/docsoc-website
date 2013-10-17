@@ -10,6 +10,6 @@ mixin author_avatar(authorName)
   - var author = contents._authors[authorName + '.json']
   if author
     .post__author
-      .post__author__avatar
+      .post__author__avatar.u-circle.u-circle-shadowed
         a(href=author.metadata.url)
-          img(src=("https://secure.gravatar.com/avatar/" + author.metadata.gravatar_hash + "?s=200"), alt=author.metadata.name, class="u-circle u-circle-shadowed", height="80", width="80")
+          img(src=("https://secure.gravatar.com/avatar/" + author.metadata.gravatar_hash + "?s=200"), alt=author.metadata.name, height="80", width="80")

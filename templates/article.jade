@@ -12,9 +12,9 @@ block content
         small
           br
           mixin author_info(page.metadata.author)
-          |  (
+          | ,
+          | &nbsp;
           = moment(page.date).format('D MMMM YYYY')
-          | )
       section.content!= page.html
     a(name='comment')
     include comments
