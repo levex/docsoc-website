@@ -11,6 +11,12 @@ Then open [http://localhost:8080](http://localhost:8080)
 
 ## Writing blog posts:
 
+### Syntax
+
+Posts should be written in [Markdown](http://daringfireball.net/projects/markdown/syntax).
+
+They're parsed with [marked](https://github.com/chjj/marked)
+
 ### Naming
 
 todo
