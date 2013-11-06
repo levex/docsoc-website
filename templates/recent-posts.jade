@@ -2,10 +2,10 @@ include author
 include article-list
 
 mixin recent_posts
-  - var number = _(articles).first(3)
+  - var number = _(articles).first(5)
   each article in number
     article.recent-article
-      h2
+      .info
         a(href=article.url)= article.title
         .small
           mixin author_info(article.metadata.author)

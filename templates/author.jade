@@ -2,7 +2,10 @@ mixin author_info(authorName)
   - var author = contents._authors[authorName + '.json']
   span.author
     if author
-      a(href=author.metadata.url)= author.metadata.name
+      if author.metadata.url
+        a(href=author.metadata.url)= author.metadata.name
+      else
+        span= author.metadata.name
     else
       =authorName
 
