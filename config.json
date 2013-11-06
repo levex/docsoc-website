@@ -10,6 +10,7 @@
   "ignore": [
     "**/.DS_Store"
   ],
+  "output": "../icdocsoc.github.io",
   "locals": {
     "url": "http://www.docsoc.co.uk",
     "name": "Imperial DoCSoc",
