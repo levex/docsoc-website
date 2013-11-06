@@ -13,7 +13,7 @@ block content
         small
           br
           mixin author_info(article.metadata.author)
-          |  (#{ moment(article.date).format('D MMMM YYYY') })
+          | ,&nbsp; #{ moment(article.date).format('D MMMM YYYY') }
       section.content!= article.intro
       if article.hasMore
         p.read-more
