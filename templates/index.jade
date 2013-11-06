@@ -1,5 +1,9 @@
 extends page
 
 block post
-  include recent-posts
-  mixin recent_posts()
+  div.lowpadding-wrapper
+    <a class="twitter-timeline" href="https://twitter.com/ICDoCSoc" data-widget-id="398125526008614914">Tweets by @ICDoCSoc</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    include recent-posts
+    mixin recent_posts()
