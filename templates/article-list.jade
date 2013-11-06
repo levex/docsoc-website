@@ -1,11 +1,11 @@
 block article-list
   //- enumerate each contents/subdirectory/index(.md) file
-  - var dirs = _.chain(contents._articles._.directories).map(function(item) {
+  - var dirs = _.chain(contents.articles._.directories).map(function(item) {
   -   return item.index
   - }).value()
 
   //- enumerate each contents/file(.md) file
-  - var files = contents._articles._.pages
+  - var files = contents.articles._.pages
 
   //- combine dirs and files object lists
   - var articles = _(_.union(dirs, files)).sortBy(function(item) {
