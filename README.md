@@ -3,7 +3,7 @@
 Install [node.js](http://nodejs.org), clone this repo and run
 
     $ npm install
-    $ npm install -g wintersmith
+    $ npm install -g wintersmith # Might need sudo...
     $ wintersmith preview
 
 Then open [http://localhost:8080](http://localhost:8080)
