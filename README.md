@@ -2,9 +2,8 @@
 
 Install [node.js](http://nodejs.org), clone this repo and run
 
-    $ npm install
-    $ npm install -g wintersmith # Might need sudo...
-    $ wintersmith preview
+    $ make
+    $ make preview
 
 Then open [http://localhost:8080](http://localhost:8080)
 
@@ -31,4 +30,10 @@ todo
 ### Inserting images in posts
 
 todo
+
+## Deployment
+
+If you have permission to write to the [icdocsoc.github.io](https://github.com/icdocsoc/icdocsoc.github.io) repo, you can deploy the current version of the site on your machine at any time with:
+
+    make deploy
 
