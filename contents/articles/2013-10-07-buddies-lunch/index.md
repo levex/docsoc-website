@@ -1,6 +1,6 @@
 ---
 title: Buddies Lunch
-author: DoCSoc
+author: Tom Wilshere
 date: 2013-10-07 13:00
 template: article.jade
 ---
