@@ -9,14 +9,16 @@ update:
 	npm update
 
 build:
-	node ./node_modules/wintersmith/bin/wintersmith build
+	rm -rf ./build && \
+	node ./node_modules/wintersmith/bin/wintersmith build && \
+	cd ./build && \
+	find ./articles -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '800x800>' -quality 80 "$$line" ; done
 
 preview:
 	node ./node_modules/wintersmith/bin/wintersmith preview
 
 deploy:
-	rm -rf ./build
-	wintersmith build
+	make build
 	cd ./build && \
 	git init . && \
 	git add . && \
@@ -27,5 +29,7 @@ deploy:
 clean:
 	rm -rf $(BUILD_FILES)
 
+resize_images:
+	find ./contents -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '800x800>' "$$line" ; done
 
-.PHONY: update sync build preview clean
+.PHONY: update sync build preview clean resize_images
