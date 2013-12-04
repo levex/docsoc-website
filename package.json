@@ -9,7 +9,8 @@
     "underscore": "1.4.x",
     "wintersmith": "",
     "wintersmith-stylus": "",
-    "wintersmith-livereload": ""
+    "wintersmith-livereload": "",
+    "stylus": ""
   },
   "engine": {
     "node": ">=0.6"
