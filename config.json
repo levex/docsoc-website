@@ -1,7 +1,8 @@
 {
   "plugins": [
     "./node_modules/wintersmith-stylus/",
-    "./node_modules/wintersmith-livereload/"
+    "./node_modules/wintersmith-livereload/",
+    "./plugins/StaticPlugin"
   ],
   "require": {
     "_": "underscore",
