@@ -20,6 +20,6 @@ block content
           each article in articles
             tr
               td.archive__date-value
-                = moment(article.date).format('DD MMM YYYY')
+                = moment(article.date).format('Do MMM \'YY')
               td
                 a(href=article.url)= article.metadata.title
