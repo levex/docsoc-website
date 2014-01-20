@@ -5,12 +5,12 @@
   "description": "Personal website",
   "license": "MIT",
   "dependencies": {
-    "moment": "",
+    "moment": "~2.5.0",
     "underscore": "1.4.x",
-    "wintersmith": "",
-    "wintersmith-stylus": "",
-    "wintersmith-livereload": "",
-    "stylus": ""
+    "wintersmith": "~2.0.9",
+    "wintersmith-stylus": "~0.4.0",
+    "wintersmith-livereload": "~0.1.0",
+    "stylus": "~0.42.1"
   },
   "engine": {
     "node": ">=0.6"
