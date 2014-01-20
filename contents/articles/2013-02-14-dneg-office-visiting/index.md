@@ -1,5 +1,5 @@
 ---
-title: Snake Game Competition
+title: DNEG Office Visit
 author: Marius Telespan
 date: 2013-02-04 10:00
 template: article.jade
