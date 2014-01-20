@@ -6,17 +6,20 @@ block content
 
   section#content
     article.post
+
+      h1 Archive
+
       include article-list
       //- print out list of articles
-      table.table.table-striped
+      table.archive__table
         thead
           tr
-            th(style='text-align: right; min-width: 6em') date
+            th.archive__date-title date
             th article
         tbody
           each article in articles
             tr
-              td(style='text-align:right')
+              td.archive__date-value
                 = moment(article.date).format('DD MMM YYYY')
               td
                 a(href=article.url)= article.metadata.title

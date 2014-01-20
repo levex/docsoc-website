@@ -40,12 +40,6 @@
         "url": "/"
       }
     ],
-    "footer": [
-      {
-        "name": "Archive",
-        "description": "",
-        "url": "/archive/"
-      }
-    ]
+    "archiveUrl": "/archive/"
   }
 }

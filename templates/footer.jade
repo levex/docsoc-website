@@ -2,7 +2,5 @@ footer.footer
   #footer-content
     ul.inline(style='text-align:center;')
       li.small &copy; #{ locals.owner }
-      for item in locals.footer
-        li(class=(item.url == page.url)? "active" : "")
-          a(href=item.url, title=item.description)
-            | #{ item.name }
+      li
+        a(href=locals.archiveUrl, title='Blog posts archive') Archive
