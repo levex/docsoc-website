@@ -1,0 +1,9 @@
+block event-list
+  //- enumerate each contents/subdirectory/index(.md) file
+  - var events = _.chain(contents.events._.directories).pluck('index').map(function(item) {
+  -     item.indexUrl = item.url.replace('/events/', '');
+  -     item.location = item.metadata.location;
+  -     return item;
+  -   }).sortBy(function(item) {
+  -     return -item.date;
+  -   }).value()
