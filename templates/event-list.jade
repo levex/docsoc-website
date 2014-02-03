@@ -1,9 +1,12 @@
+//- creates an 'events' variable with all upcoming events in descending order
+
 block event-list
   //- enumerate each contents/subdirectory/index(.md) file
-  - var events = _.chain(contents.events._.directories).pluck('index').map(function(item) {
-  -     item.indexUrl = item.url.replace('/events/', '');
-  -     item.location = item.metadata.location;
-  -     return item;
-  -   }).sortBy(function(item) {
-  -     return -item.date;
-  -   }).value()
+  - var events = _.chain(contents.events._.directories).pluck('index').map(function (item) {
+  //- -     item.indexUrl = item.url.replace('/events/', '');
+  -   return _.extend(item, _.pick(item.metadata, 'location', 'page', 'signup'))
+  - }).filter(function (item) {
+  -   return moment().subtract("days", 1) < item.date;
+  - }).sortBy(function (item) {
+  -   return -item.date;
+  - }).value()
