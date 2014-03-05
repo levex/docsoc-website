@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "./node_modules/wintersmith-stylus/",
+    "./node_modules/wintersmith-stylus/plugin.coffee",
     "./node_modules/wintersmith-livereload/",
     "./plugins/StaticPlugin"
   ],
