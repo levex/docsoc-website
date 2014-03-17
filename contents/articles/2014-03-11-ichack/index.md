@@ -33,7 +33,11 @@ We kicked the whole event off on Friday evening, with a series of introductory t
 
 The first day of the hackathon proper dawned bright, clear and rather warm; perfect weather for sitting indoors hunched over a screen. Our illustrious Chair and I met at Tesco’s in Earl’s Court at 8am, to pick up such essentials as Coke, Red Bull, cereals and many, *many* crisps. We managed to fill not one, not two, but three shopping trolleys - rather a shock for the very tolerant lady at the till, but the driver of the taxi we managed to fill to the brim didn’t bat an eyelid. Cabbies have seen everything, I guess.
 
-<center><table><tr><td width="50%"><img src="images/trolleys.jpg"></td><td><img src="images/taxi.jpg"></td></tr></table>
+<center><table><tr><td width="50%">
+![Food.](images/trolleys.jpg)
+</td><td>
+![Moare food!](images/taxi.jpg)
+</td></tr></table>
 *Let it never be said we don't look after you.*</center>
 
 Eventually, we managed to get everything unloaded, devices unpacked, our venue (the Business School cafe) prepped - ready to go.
@@ -42,7 +46,12 @@ People started showing up around 11, and we had a huge flood of participants; de
 
 After pretty much everyone had drizzled in, had some snacks and grabbed as much swag and they could carry, Michal opened the hackathon with a short talk. There was a massive flood to get the devices needed for projects, and then everyone settled down and the work began.
 
-<center><table><tr><td width="50%"><img src="images/registration.jpg"></td><td><img src="images/crowd.jpg"></td></tr></table></center>
+<center><table><tr>
+<td width="50%">
+![Morning started busy.](images/registration.jpg)
+</td><td>
+![Very busy.](images/crowd.jpg)
+</td></tr></table></center>
 
 As one of the organising team, I wasn’t really working on anything - this meant I had plenty of time to wander around and have a nosy at what the different teams were building. At this early stage there wasn’t much in the way of polished software to see, but it was interesting to see the teams hard at work. One group had a chap waving his arms around in front of a Kinect with an Oculus Rift (which is *amazing*) on his face, and another were slowly plastering the walls with diagrams, flowcharts and sketches. All very productive.
 
@@ -56,7 +65,13 @@ The work continued until around 5pm, when we had a short break for food - lasagn
 
 At last year’s IC Hack, this bit of the hackathon wasn’t quite so successful - we didn’t have the venue overnight, so a few of us headed to the library and the rest went home to get some shuteye. Happily, this wasn’t the case thanks to the Business School letting us in for 24 hours - the majority of hackers were hardcore, staying up all night working. Much caffeine was consumed. A few people - including some organisers - didn’t make it through the night.
 
-<center><table><tr><td width="33%"><img src="images/lawrence.jpg"></td><td width="33%"><img src="images/michal.jpg"></td><td width="33%"><img src="images/max.jpg"></td></tr></table>
+<center><table><tr><td width="33%">
+![Lawrence](images/lawrence.jpg)
+</td><td width="33%">
+![Not me](images/michal.jpg)
+</td><td width="33%">
+![Max](images/max.jpg)
+</td></tr></table>
 *Sleeping beauties Lawrence, Michal and Max.*</center>
 
 We put out some cereal around 3am, much to everyone’s delight (especially mine), and at around 8am we had some breakfast. Work continued until midday, when time was up, and we had some lunch before migrating to the Clore lecture theatre for the presentations, judging and awards. Groups had ten minutes each to present and demo their idea and hack, and there were several prizes available for the various devices, as well as DoCSoc’s overall prize of £500.
