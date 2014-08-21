@@ -5,14 +5,29 @@ block post
     h1 Imperial Department of Computing Society
     .summary
       p
-        | We are the Computer Science Society of Imperial College London. We organize events for our students, often in collaboration with industry sponsors.
+        | We run multiple events throughout the year, including several coding challenges 
+        | and an annual 
+        a(href="http://www.ichack.org" target="_blank") hackathon
+        | .
+        | We invite notable tech speakers, connect our students with different opportunities  
+        | and run a number of social events to bring together the community of students who are interested in Computing.
         | &nbsp;
         a(href="mailto:docsoc@imperial.ac.uk") Say hi.
     .links
       p
-        <iframe class="facebook-follow-button" src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FICDocSoc&width&layout=button_count&action=recommend&show_faces=false&share=false&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+        .social 
+          iframe(class="facebook-follow-button" 
+                 src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FICDocSoc&width&layout=button_count&action=recommend&show_faces=false&share=false&height=21" 
+                 scrolling="no" 
+                 frameborder="0" 
+                 style="border:none; overflow:hidden; height:21px;" 
+                 allowTransparency="true")
 
-        a(href="https://twitter.com/icdocsoc", class="twitter-follow-button", data-show-count="true", data-lang="en") Follow @ICDoCSoc
+        .social
+          a(href="https://twitter.com/icdocsoc", 
+            class="twitter-follow-button", 
+            data-show-count="true", 
+            data-lang="en") Follow @ICDoCSoc
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     .cf
     .container
@@ -38,12 +53,14 @@ block post
     .thirds-inner
       .our-sponsors
         h2 Our Sponsors
-        .sponsor-image-mini
-          img(src="/img/sponsors/amazon_logo.png")
-        .sponsor-image-mini
-          img(src="/img/sponsors/credit_suisse_logo.png")
-        .sponsor-image-mini
-          img(src="/img/sponsors/accenture_logo.png")
-        .sponsor-image-mini
-          img(src="/img/sponsors/g-research_logo.png")
+        //-.sponsor-image-mini
+        p DoCSoc is currently looking for 
+          a(href="/sponsors") sponsors
+          | !
+        p Interested in sponsoring the society? 
+          | Download 
+          a(href="/files/information_for_sponsors.pdf") sponsors information package 2014-2015
+          |  and 
+          a(href="mailto: docsoc@imperial.ac.uk") send us an email
+          |.
   .u-cf
