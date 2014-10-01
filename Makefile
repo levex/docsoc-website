@@ -1,6 +1,5 @@
 # UNISON_OPTS=-auto -batch
 SYNC_DIRS=templates contents/authors contents/style contents/img contents/script
-BUILD_FILES=$(shell find .. -type d \( -path '../src' -o -path '../.*' \) -prune -o -name '*' -not -name '.*' -not -name 'README.md' -print)
 
 all: update sync build
 
@@ -27,7 +26,7 @@ deploy:
 	rm -rf .git
 
 clean:
-	rm -rf $(BUILD_FILES)
+	rm -rf ./build
 
 resize_images:
 	find ./contents -name "*.jpg" -o -name "*.png" | while read line ; do mogrify -verbose -resize '800x800>' "$$line" ; done
