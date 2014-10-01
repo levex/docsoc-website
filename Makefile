@@ -23,7 +23,8 @@ deploy:
 	git add . && \
 	git commit -m "Deploy"; \
 	git push "git@github.com:icdocsoc/icdocsoc.github.io.git" master:master --force && \
-	rm -rf .git
+	rm -rf .git && \
+	cd ..
 
 clean:
 	rm -rf ./build
