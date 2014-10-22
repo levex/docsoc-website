@@ -1,5 +1,6 @@
 # UNISON_OPTS=-auto -batch
 SYNC_DIRS=templates contents/authors contents/style contents/img contents/script
+CURRENT_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
 
 all: update sync build
 
@@ -17,7 +18,8 @@ preview:
 	node ./node_modules/wintersmith/bin/wintersmith preview
 
 deploy:
-	make build
+	[[ "$(CURRENT_BRANCH)" == "master" ]] && \
+	make build && \
 	cd ./build && \
 	git init . && \
 	git add . && \
