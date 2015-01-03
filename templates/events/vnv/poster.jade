@@ -1,0 +1,17 @@
+extends ../../page
+
+block post
+  include ../../event-list
+  - var event = _.chain(events).find(function(item) {
+  -   return item.url.match(/vnv/);
+  - }).value();
+
+  h1.u-text-center.u-margin-Bl
+    a(href=event.signup, alt=event.title) Sign up now!
+
+  img(src="/vnv/poster.png", alt="Poster for Victims & Villains")
+
+  h1.u-text-center.u-margin-Bl
+    a(href=event.signup, alt=event.title) Sign up now!
+
+
