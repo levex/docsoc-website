@@ -8,5 +8,5 @@ block event-list
   - }).filter(function (item) {
   -   return moment().subtract("days", 1) < item.date;
   - }).sortBy(function (item) {
-  -   return -item.date;
+  -   return item.date;
   - }).value()

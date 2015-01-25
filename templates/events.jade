@@ -2,7 +2,7 @@ include event-list
 
 each event in events
   article.upcoming-event
-    .upcoming-event__date #{ moment(event.date).format('D MMMM YYYY') }
+    .upcoming-event__date #{ moment(event.date).format('D MMM YYYY') }
     .upcoming-event__location= event.location
     .upcoming-event__info
       a(href=event.page, alt=event.title)= event.title
