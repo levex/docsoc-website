@@ -23,17 +23,19 @@ At the start of the year, DoCSoc - along with over 300 other Imperial societies 
 
 <center>
 <div style="margin-left: auto; margin-right: auto; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26); width: 300px; height: 300px; overflow: hidden;">
-![Yulia and Nic at the stall](images/fresherfairbanner.jpg)
+![Yulia and Nic at the stall.](images/fresherfairbanner.jpg)
 </div>
-*Yulia and Nic at the stall*</center>
+*Yulia and Nic at the stall.*</center>
 
 First Year Buddies Lunch
 ========================
-Our most successful buddy scheme yet! The buddies lunch connects first year students with cheerful mentors in other year groups. Through cooperation with the department we were able to grant all 250 attendees a free lunch and a DoCSoc swag bag (Full of goodies donated by our [sponsors](/sponsors).
+Our most successful buddy scheme yet! The buddies lunch connects first year students with cheerful mentors in other year groups. Through cooperation with the department we were able to grant all 250 attendees a free lunch and a DoCSoc swag bag (Full of goodies donated by our [sponsors](/sponsors)).
 
+<center>
 <div class="u-img-blogpost-shadow u-img-blogpost-width u-img-blogpost-height u-img-blogpost-h-center">
-![Sponsor swag in our swag bags](images/buddypack.jpg)
+![Sponsor swag in our swag bags!](images/buddypack.jpg)
 </div>
+*Sponsor swag and DoCSoc swag bags!*</center>
 
 Networking with Credit Suisse
 =============================
