@@ -61,7 +61,7 @@ GoCardless Bar Night
 
 Amazon Office Trip
 ==================
-75 of us piled on to the Tube straight after lectures to make the short trek to Barbican to visit Amazon on their gorgeous home turf! [Amazon](http://amazon.com) were wonderful hosts, providing drinks and pizza; and even flew down some of their engineers from Edinburgh to meet us!
+75 of us piled on to the Tube straight after lectures to make the short trek to Barbican to visit Amazon on their gorgeous home turf! [Amazon](http://amazon.com) were wonderful hosts, providing drinks and pizza; and even flew some of their engineers down from Edinburgh to meet us!
 
 <div class="u-img-blogpost-shadow u-img-blogpost-height">
 ![Amazon's packed offices](images/amazonvisit.jpg)
