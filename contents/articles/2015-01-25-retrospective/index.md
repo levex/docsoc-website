@@ -9,7 +9,7 @@ Hello DoC'ers and welcome to 2015! Before we get on to all the exciting events w
 
 Hoodies
 =======
-Our hoodie shipment arrived and we've united 80 wonderful students each with a beautiful DoCSoc hoodie! We've subsidised the hoodies 25% off cost price each to ensure everyone who wants one, gets one.
+Our hoodie shipment arrived and we've united 80 wonderful students each with a beautiful DoCSoc hooie! We've subsidised the hoodies 25% off cost price each to ensure everyone who wants one, gets one.
 
 <center>
 <div style="margin-left: auto; margin-right: auto; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26); width: 300px; height: 300px; overflow: hidden;">
@@ -37,7 +37,7 @@ Our most successful buddy scheme yet! The buddies lunch connects first year stud
 
 Networking with Credit Suisse
 =============================
-Our first industry event of the term! 50 attendees enjoyed a free lunch while getting a head-start on the job search. [Credit Suisse](https://www.credit-suisse.com/global/en.html) have sponsored us for a number of years now and their support is appreciated by our members.
+Our first industry event of the term! Our returning sponsor [Credit Suisse](https://www.credit-suisse.com/global/en.html) provided free lunch and stellar career help for 50 lucky attendees.
 
 Internship 101
 ==============
