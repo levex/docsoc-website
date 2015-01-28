@@ -9,7 +9,7 @@ Hello DoC'ers and welcome to 2015! Before we get on to all the exciting events w
 
 Hoodies
 =======
-Our hoodie shipment arrived and we've united 80 wonderful students each with a beautiful DoCSoc hooie! We've subsidised the hoodies 25% off cost price each to ensure everyone who wants one, gets one.
+Our hoodie shipment arrived and we've united 80 wonderful students each with a beautiful DoCSoc hoodie! We've subsidised the hoodies 25% off cost price each to ensure everyone who wants one, gets one.
 
 <center>
 <div style="margin-left: auto; margin-right: auto; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26); width: 300px; height: 300px; overflow: hidden;">
@@ -93,7 +93,7 @@ Our very first board game night! From Monopoly to D&D, a mass of students enjoye
 
 Interstellar IMAX Trip
 ========================
-My favourite movie of 2014! At Imperial College we have the wonderful privelage of counting The Science Museum amongst our neighbours. When we heard the were showing Interstellar in true IMAX. DoCSoc subsidised the tickets to half price. After we ran out of our initial batch within two hours, we purchased a much larger batch which ran out in just two hours! 
+My favourite movie of 2014! At Imperial College we have the wonderful privilege of counting The Science Museum amongst our neighbours. When we heard the were showing Interstellar in true IMAX. DoCSoc subsidised the tickets to half price. After we ran out of our initial batch within two hours, we purchased a much larger batch which ran out in just two hours! 
 
 <center>
 <div class="u-img-blogpost-shadow u-img-blogpost-height">
