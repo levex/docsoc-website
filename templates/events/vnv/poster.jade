@@ -5,7 +5,7 @@ block post
   - var event = _.chain(events).find(function(item) {
   -   return item.url.match(/vnv/);
   - }).value();
-
+  - if (event) {
   h1.u-text-center.u-margin-Bl
     a(href=event.signup, alt=event.title) Sign up now!
 
@@ -13,5 +13,5 @@ block post
 
   h1.u-text-center.u-margin-Bl
     a(href=event.signup, alt=event.title) Sign up now!
-
+  - }
 
