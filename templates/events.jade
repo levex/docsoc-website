@@ -5,5 +5,5 @@ each event in events
     .upcoming-event__date #{ moment(event.date).format('D MMM YYYY') }
     .upcoming-event__location= event.location
     .upcoming-event__info
-      a(href=event.page, alt=event.title)= event.title
+      a(href=event.page, alt=event.title, target="_blank")= event.title
 .u-cf
