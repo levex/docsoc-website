@@ -47,12 +47,13 @@
 .our-sponsors {
 }
 
-.sponsor-image-mini {
+.sponsor-image-row {
   text-align: center;
-  width: 100%;
+  width:100%;
   height: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
 
 .sponsor-image-mini-helper {
@@ -61,9 +62,19 @@
   vertical-align: middle;
 }
 
-.sponsor-image-mini img {
-  max-height: 50px;
-  vertical-align: middle;
+.sponsor-image-row {
+  img {
+    max-height: 50px;
+    max-width: 140px;
+    vertical-align: top;
+  }
+  img.big {
+    max-height: 60px;
+    max-width: 180px;
+  }
+  img + img {
+    margin-left: 10px;
+  }
 }
 
 @media (min-width: 800px) {
@@ -84,6 +95,10 @@
     border-right: 1px solid #e4e4e4;
     margin-bottom: 0px;
     min-height: 250px;
+  }
+
+  .thirds-container.two-thirds {
+    width: 66.7%;
   }
 
   .thirds-container.last-item {
