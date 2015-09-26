@@ -38,52 +38,31 @@ block post
 
   .thirds-container        
     .thirds-inner
-      h2 Recent Updates
-      <a class="twitter-timeline" href="https://twitter.com/ICDoCSoc" data-widget-id="398125526008614914" data-chrome="nofooter noheader transparent">Tweets by @ICDoCSoc</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      
-    .thirds-inner
       .recent-posts
         h2 Recent Posts
         include recent-posts
         mixin recent_posts()
-        
-  .thirds-container.last-item
+ 
     .thirds-inner
+      h2 Recent Updates
+      <a class="twitter-timeline" href="https://twitter.com/ICDoCSoc" data-widget-id="398125526008614914" data-chrome="nofooter noheader transparent">Tweets by @ICDoCSoc</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      
+  .thirds-container.two-thirds.last-item
+    .thirds-inner
+      h2 Our Sponsors
       .our-sponsors
-        h2 Our Sponsors
-        h3 Bespoke Sponsor
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
-          img(src='/img/sponsors/microsoft_logo.png').sponsor-image
-        h3 Gold Sponsors
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
+        .sponsor-image-row
+          img(src='/img/sponsors/microsoft_logo.png').sponsor-image.big
+        .sponsor-image-row
           img(src='/img/sponsors/amazon_logo.png').sponsor-image
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
           img(src='/img/sponsors/newvoicemedia_logo.png').sponsor-image
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
           img(src='/img/sponsors/palantir_logo.png').sponsor-image
-
-  .thirds-container.last-item
-    .thirds-inner
-      .our-sponsors
-        h2 More Sponsors
-        h3 Silver Sponsors
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
+        .sponsor-image-row
           img(src='/img/sponsors/bloomberg_logo.png').sponsor-image
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
           img(src='/img/sponsors/deutsche_bank_logo.png').sponsor-image
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
           img(src='/img/sponsors/netcraft_logo.png').sponsor-image
-        h3 Bronze Sponsor
-        .sponsor-image-mini
-          span.sponsor-image-mini-helper
+        .sponsor-image-row
           img(src='/img/sponsors/blackrock_logo.png').sponsor-image
     
 
