@@ -33,8 +33,9 @@ block post
     .container
       .upcoming-events
         h2 Upcoming Events
-        <iframe src="http://www.fanrx.com/facebook/events.php?theme=zuck&page=ICDocSoc&bgcolor=ffffff&textcolor=000000&linkcolor=555555&max=5" width="400" height="200" frameborder="no" scrolling="auto"></iframe>
-        <script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.2" async></script> <div class="fb-post"data-href="https://www.facebook.com/FacebookDevelopers/posts/10152128760693553" data-width="400"></div>
+        //<iframe src="http://www.fanrx.com/facebook/events.php?theme=zuck&page=ICDocSoc&bgcolor=ffffff&textcolor=000000&linkcolor=555555&max=5" width="400" height="200" frameborder="no" scrolling="auto"></iframe>
+        //<script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.2" async></script> <div class="fb-post"data-href="https://www.facebook.com/FacebookDevelopers/posts/10152128760693553" data-width="400"></div>
+        <?php require '/../plugins/facebook-php-sdk-v4-5.0.0/src/Facebook/autoload.php'; $fb new Facebook(array('appid'=>'465988856919783','secret'=>'fcec33c3505ab36b206d16f2abc22a48'));$page_events = $fb->api('/ICDocSoc/events', 'GET'); printf ('<pre>%s</pre>', $page_events);?>
 
 
   .thirds-container        
