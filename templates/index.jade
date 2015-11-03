@@ -30,47 +30,20 @@ block post
             data-lang="en") Follow @ICDoCSoc
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     .cf
-    .container
-      .upcoming-events
-        h2 Upcoming Events
-        //-<iframe src="http://www.fanrx.com/facebook/events.php?theme=zuck&page=ICDocSoc&bgcolor=ffffff&textcolor=000000&linkcolor=555555&max=5" width="400" height="200" frameborder="no" scrolling="auto"></iframe>
-        <center><div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/ICDocSoc/posts/1207193219297225" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ICDocSoc/posts/1207193219297225"><p>Come join us to see Star Wars: The Force Awakens at the Science Museum!</p>Posted by <a href="https://www.facebook.com/ICDocSoc/">DoCSoc</a> on&nbsp;<a href="https://www.facebook.com/ICDocSoc/posts/1207193219297225">Friday, 30 October 2015</a></blockquote></div></div></center>
-        //-<script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.2" async></script> <div class="fb-post"data-href="https://www.facebook.com/FacebookDevelopers/posts/10152128760693553" data-width="400"></div>
-        //- <?php
-        //-     $pageid='ICDocSoc';
-        //-     $app_access_token='fcec33c3505ab36b206d16f2abc22a48';
-        //-     $MEevents = $facebook->api('/'.$pageid.'/events?access_token='.$app_access_token.'&fields=id,name,from,start_time,location,end_time&limit=8');
-        //-     echo '<div align="center" style="border: 0px solid; width: 100%;">';
-        //-     foreach ($MEevents as $key=>$value) {
-        //-         $i=1;
-        //-         foreach ($value as $fkey=>$fvalue) {
-        //-             if($fvalue[id]==h){
-        //-             }else{
-        //-                 $i++;   
-        //-                 $whofrom = $fvalue[from];
-        //-                 $whofromname = $whofrom[name];
-        //-                 $whofrompic = $whofrom[id];
+    .thirds-container
+      .thirds-inner
+        h2 blah blah
+        iframe(name='eventFrame', src='http://www.fanrx.com/facebook/events.php?theme=zuck&page=ICDocSoc&bgcolor=ffffff&textcolor=000000&linkcolor=555555&max=5', style='height: 100%; width: 100%;', frameborder='no', scrolling='auto')
 
-        //-                 echo '<div title="'.$fvalue[name].'" style="vertical-align: top; border: 1px inset; width: 700px; min-height: 80px; margin: 2px;">';
-        //-                 echo '<div id=""></div>';
-        //-                 echo '<div style="margin: 4px; padding: 3px; text-align: left;">';
-        //-                 echo '<img src="https://graph.facebook.com/'.$fvalue[id].'/picture" style="float: left; clear: left; margin: 5px;">&nbsp;';
-        //-                 echo '<a href="https://www.facebook.com/event.php?eid='.$fvalue[id].'" target="_blank">'.$fvalue[name].'</a><br />';
-        //-                 echo 'Location: '.$fvalue[location].'<br />';
-        //-                 echo 'Starts '.nicetime($fvalue[start_time]).' - Ends '.nicetime($fvalue[end_time]).'<br />';
-        //-                 echo '</div>';
-        //-                 echo '</div>';
-        //-             }
+    .thirds-container.two-thirds.last-item
+      .thirds-inner
+        h2 blah blah
+        //- div(style='width: 50%; float: right')
+        a.twitter-timeline(href='https://twitter.com/ICDoCSoc', data-widget-id='398125526008614914', data-chrome='nofooter noheader transparent') Tweets by @ICDoCSoc
+          script.
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
-        //-         }
-        //-     }
-        //-     echo '</div>';
-        //- ?>
-        //- https://www.codeofaninja.com/2011/07/display-facebook-events-to-your-website.html
-        //- <?php $pageid='532842050065682';$year_range=1;$since_date = date('Y-m-d');$until_date = date('Y-12-31', strtotime('+' . $year_range . ' years'));$since_unix_timestamp = strtotime($since_date);$until_unix_timestamp = strtotime($until_date);$app_access_token='https://graph.facebook.com/oauth/access_token?client_id=532842050065682&client_secret=fcec33c3505ab36b206d16f2abc22a48&grant_type=client_credentials';$MEevents = $facebook->api('../plugins/facebook-php-sdk-v4-5.0.0/src/Facebook/autoload.php'.$pageid.'/events?access_token='.$app_access_token.'&fields=id,name,from,start_time,location,end_time&limit=8');echo '<div align="center" style="border: 0px solid; width: 100%;">';foreach ($MEevents as $key=>$value) {$i=1;foreach ($value as $fkey=>$fvalue) {if($fvalue[id]==h){}else{$i++;$whofrom = $fvalue[from];$whofromname = $whofrom[name];$whofrompic = $whofrom[id];echo '<div title="'.$fvalue[name].'" style="vertical-align: top; border: 1px inset; width: 700px; min-height: 80px; margin: 2px;">';echo '<div id=""></div>';echo '<div style="margin: 4px; padding: 3px; text-align: left;">';echo '<img src="https://graph.facebook.com/'.$fvalue[id].'/picture" style="float: left; clear: left; margin: 5px;">&nbsp;';echo '<a href="https://www.facebook.com/event.php?eid='.$fvalue[id].'" target="_blank">'.$fvalue[name].'</a><br />';echo 'Location: '.$fvalue[location].'<br />';echo 'Starts '.nicetime($fvalue[start_time]).' - Ends '.nicetime($fvalue[end_time]).'<br />';echo '</div>';echo '</div>';}}}echo '</div>';?>
-
-
-  .thirds-container        
+  .thirds-container
     .thirds-inner
       .recent-posts
         h2 Recent Posts
@@ -79,8 +52,12 @@ block post
  
     .thirds-inner
       h2 Recent Updates
-      <a class="twitter-timeline" href="https://twitter.com/ICDoCSoc" data-widget-id="398125526008614914" data-chrome="nofooter noheader transparent">Tweets by @ICDoCSoc</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      a.twitter-timeline(href='https://twitter.com/ICDoCSoc', data-widget-id='398125526008614914', data-chrome='nofooter noheader transparent') Tweets by @ICDoCSoc
+      script.
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+      //- <a class="twitter-timeline" href="https://twitter.com/ICDoCSoc" data-widget-id="398125526008614914" data-chrome="nofooter noheader transparent">Tweets by @ICDoCSoc</a>
+      //- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       
   .thirds-container.two-thirds.last-item
     .thirds-inner
