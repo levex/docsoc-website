@@ -1,0 +1,17 @@
+header.header
+  .stripe.u-cf
+    nav.container.header__blog.u-cf
+      .header__blog__logo.u-cf.u-pull-start
+        a(href='/')
+          img(width='150px', src='/img/imperial-docsoc-logo.png')
+      ul.navigation
+        li.navigation__link
+          a(href='https://github.com/icdocsoc')
+            i.icon-github
+        li.navigation__link
+          a(href='https://www.facebook.com/ICDocSoc')
+            i.icon-facebook-sign
+        for item in locals.menu
+          li.navigation__link(class=(item.url == page.url)? "active" : "")
+            a(href=item.url, title=item.description)
+              | #{ item.name }

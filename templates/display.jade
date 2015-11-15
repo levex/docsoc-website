@@ -1,0 +1,9 @@
+doctype html
+
+html
+  script.
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("get", '/static/feed.json', false);
+    xmlHttp.send();
+    var links = JSON.parse(xmlHttp.responseText).links;
+    location.replace(links[Math.floor(Math.random() * links.length)]);

@@ -1,0 +1,25 @@
+
+extends layout
+
+block content
+  != page.html
+
+  section#content
+    article.post
+
+      h1 Archive
+
+      include article-list
+      //- print out list of articles
+      table.archive__table
+        thead
+          tr
+            th.archive__date-title date
+            th article
+        tbody
+          each article in articles
+            tr
+              td.archive__date-value
+                = moment(article.date).format('Do MMM \'YY')
+              td
+                a(href=article.url)= article.metadata.title

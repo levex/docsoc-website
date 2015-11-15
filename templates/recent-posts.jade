@@ -1,0 +1,13 @@
+include author
+include article-list
+
+mixin recent_posts
+  - var number = _(articles).first(5)
+  each article in number
+    article.recent-article
+      .info
+        a(href=article.url)= article.title
+        .small
+          mixin author_info(article.metadata.author)
+          |  (#{ moment(article.date).format('D MMMM YYYY') })
+  .u-cf

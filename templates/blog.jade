@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  include author
+  include article-list
+  - var number = _(articles).first(locals.index_articles)
+  each article in number
+    article.post
+      mixin author_avatar(article.metadata.author)
+
+      h1
+        a(href=article.url)= article.title
+        small
+          br
+          mixin author_info(article.metadata.author)
+          | ,&nbsp; #{ moment(article.date).format('D MMMM YYYY') }
+      section.content!= article.intro
+      if article.hasMore
+        p.read-more
+          a(href=article.url) read more
+      a(href=article.url + '#comment')
+        .comment
+          i comment
+
+  article.post
+    .post__singleLink
+      a(href=locals.archiveUrl) See all

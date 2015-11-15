@@ -1,0 +1,58 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 15px;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+
+  background: #333;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Motiva Sans', sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+.btn--pagination {
+  position: relative;
+  background: #D6D9DE;
+  border: 4px solid #D6D9DE;
+  color: #6B747B;
+  line-height: 30px;
+  min-height: 40px;
+}
+
+.btn--pagination:after, .btn--pagination:before {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.btn--pagination:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-width: 20px;
+  top: 50%;
+  margin-top: -20px;
+}
+
+.btn--older:before {
+  border-right-color: #D6D9DE;
+  margin-right: 2px;
+  right: 100%;
+}
+
+.btn--newer:before {
+  border-left-color: #D6D9DE;
+  margin-left: 2px;
+  left: 100%;
+}

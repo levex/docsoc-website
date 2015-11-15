@@ -1,0 +1,18 @@
+mixin author_info(authorName)
+  - var author = contents._authors[authorName + '.json']
+  span.author
+    if author
+      if author.metadata.url
+        a(href=author.metadata.url)= author.metadata.name
+      else
+        span= author.metadata.name
+    else
+      =authorName
+
+mixin author_avatar(authorName)
+  - var author = contents._authors[authorName + '.json']
+  if author
+    .post__author
+      .post__author__avatar.u-circle.u-circle-shadowed
+        a(href=author.metadata.url)
+          img(src=(author.metadata.photo_url), alt=author.metadata.name, height="70", width="70")

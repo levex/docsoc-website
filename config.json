@@ -1,0 +1,45 @@
+{
+  "plugins": [
+    "./node_modules/wintersmith-stylus/plugin.coffee",
+    "./node_modules/wintersmith-livereload/",
+    "./plugins/StaticPlugin"
+  ],
+  "require": {
+    "_": "underscore",
+    "moment": "moment"
+  },
+  "ignore": [
+    "**/.DS_Store"
+  ],
+  "output": "build",
+  "locals": {
+    "url": "http://www.docsoc.co.uk",
+    "name": "DoCSoc | Imperial's Computing Society",
+    "owner": "Imperial DoCSoc",
+    "description": "Imperial College London, Department of Computing Society, &c",
+    "index_articles": 3,
+    "menu": [
+      {
+        "name": "About",
+        "description": "",
+        "url": "/about/"
+      },
+      {
+        "name": "News",
+        "description": "",
+        "url": "/blog/"
+      },
+      {
+        "name": "Sponsors",
+        "description": "",
+        "url": "/sponsors/"
+      },
+      {
+        "name": "What's On?",
+        "description": "",
+        "url": "/"
+      }
+    ],
+    "archiveUrl": "/archive/"
+  }
+}

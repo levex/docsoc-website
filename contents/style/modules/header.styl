@@ -1,0 +1,126 @@
+.header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header__blog {
+  padding: 0 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header__blog__logo {
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: block;
+  margin-top: -35px;
+}
+
+.header .stripe {
+  background-color: #21558f;
+}
+
+.header a {
+  color: #fff;
+}
+
+.stripe {
+  padding: 0 15px;
+}
+
+.navigation {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin: 0 auto;
+  float: none;
+  margin-top: 15px;
+}
+
+.navigation__link {
+  float: right;
+  margin: 0px 5px;
+}
+
+.navigation__link a {
+  padding: 6px 11px;
+  border-radius: 5px;
+}
+
+.navigation__link a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+.navigation__link.active a {
+  background-color: rgba(255, 255, 255, 0.2);
+  // background-color: rgba(255, 255, 255, 1)
+  // box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+  // color black
+  // border-radius: 5px 5px 0 0;
+  // border-bottom 1px solid white
+  // padding-bottom 2px
+  // margin-bottom 3px
+}
+
+.header__blog__logo {
+  float: none;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 800px) {
+  .header {
+    margin-bottom: 30px;
+  }
+
+
+  .header .stripe {
+    height: 200px;
+  }
+
+  .stripe, .header__blog {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header__blog {
+    margin-top: 50px;
+  }
+
+  .header__blog__button {
+    float: right;
+  }
+
+  .header__blog__logo {
+    float: left;
+    margin-bottom: 0px;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .navigation {
+    float: right;
+    margin-top: 50px;
+  }
+
+  .stripe__button {
+    width: auto;
+    margin-top: 49px;
+    float: right;
+  }
+
+  .stripe__text {
+    float: left;
+  }
+}
+
+@media (min-width: 600px)
+  .navigation
+    width 600px
