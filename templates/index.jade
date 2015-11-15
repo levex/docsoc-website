@@ -33,14 +33,13 @@ block post
   h2 What's Going On
   .thirds-container
     .thirds-inner
-      a.twitter-timeline(href='https://twitter.com/ICDoCSoc', data-widget-id='398125526008614914', data-chrome='nofooter noheader transparent') Tweets by @ICDoCSoc
-        script.
-          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      iframe(name='eventFrame', src='http://www.fanrx.com/facebook/events.php?theme=zuck&page=ICDocSoc&bgcolor=ffffff&textcolor=000000&linkcolor=555555&max=5', style='height: 250px; width: 100%;', frameborder='no', scrolling='auto')
 
   .thirds-container.two-thirds.last-item
     .thirds-inner
-      //- h2 blah blah
-      iframe(name='eventFrame', src='http://www.fanrx.com/facebook/events.php?theme=zuck&page=ICDocSoc&bgcolor=ffffff&textcolor=000000&linkcolor=555555&max=5', style='height: 250px; width: 100%;', frameborder='no', scrolling='auto')
+      a.twitter-timeline(href='https://twitter.com/ICDoCSoc', data-widget-id='398125526008614914', data-chrome='nofooter noheader transparent') Tweets by @ICDoCSoc
+        script.
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
   .thirds-container
     .thirds-inner
