@@ -123,7 +123,7 @@ The biggest movie of 2015! Nic mentioned in the last post about how fortunate we
 
 End of Term Bar Night
 =====================
-An old saying goes like this: to heal our outside, we pour alcohol on flesh, but to heal our insides, we drink alcohol! Nothing could be more true as we sent off this term in style with one of our best Bar Nights yet! We've kept up our ethos of giving free bar tokens, and it made everyone very happy - as you can see below.
+An old saying goes like this: to heal our outside, we pour alcohol on flesh, but to heal our insides, we drink it all up! Nothing could be more true as we sent off this term in style with one of our best Bar Nights yet! We've kept up our ethos of giving free bar tokens, and it made everyone very happy - as you can see below.
 
 <center>
 <div class="u-img-blogpost-shadow" style="height: 100%">
