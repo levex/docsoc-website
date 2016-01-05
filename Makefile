@@ -18,7 +18,6 @@ preview:
 	node ./node_modules/wintersmith/bin/wintersmith preview
 
 deploy:
-	[[ "$(CURRENT_BRANCH)" == "master" ]] && \
 	make build && \
 	cd ./build && \
 	git init . && \
