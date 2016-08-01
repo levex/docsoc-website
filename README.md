@@ -5,7 +5,7 @@ Install [node.js](http://nodejs.org), clone this repo and run
     $ make
     $ make preview
 
-Then open [http://localhost:8080](http://localhost:8080)
+Then open [http://localhost:8080](http://localhost:8080) 
 
 # Posts
 
