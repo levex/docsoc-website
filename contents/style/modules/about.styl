@@ -1,2 +1,80 @@
 .address {
 }
+
+/* ---------------------------------------------------
+                WHO ARE WE
+------------------------------------------------------ */
+
+#whoarewe {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#whoarewe h3 {
+    margin: 8px 0 0;
+}
+
+#whoarewe li {
+    margin: 15px 0;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+#whoarewe .role {
+    color: #21558f;
+    font-size: 95%;
+}
+
+#whoarewe figure > img {
+    -webkit-clip-path: polygon(50% 0%, 93.75% 25%, 93.75% 75%, 50% 100%, 6.25% 75%, 6.25% 25%);
+    clip-path: polygon(50% 0%, 93.75% 25%, 93.75% 75%, 50% 100%, 6.25% 75%, 6.25% 25%);
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    float: left;
+}
+
+.role {
+    display: block;
+    margin-bottom: 3px;
+}
+
+#whoarewe .social {
+    display: block;
+    height: 20px;
+}
+
+#whoarewe .social img {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+
+@media (min-width: 401px) {
+    #whoarewe li {
+        width: 50%;
+    }
+    #whoarewe figure > img {
+        float: none;
+        margin-right: 0;
+    }
+    #whoarewe li {
+        text-align: center;
+    }
+}
+
+@media (min-width: 560px) {
+    #whoarewe li {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 800px) {
+    #whoarewe li {
+        width: 25%;
+    }
+}

@@ -40,6 +40,7 @@
         "url": "/"
       }
     ],
-    "archiveUrl": "/archive/"
+    "archiveUrl": "/archive/",
+    "committee": ["James Long", "Paul Balaji", "Luke Granger-Brown", "Tom Bower", "James Prince", "Alessandro Bonardi", "Sarah Baka", "Karim Nahas", "Maurice Yap", "Paul Lietar", "Rachel Mekhtieva Lee", "Levente Kurusa", "Amin Karamlou", "Tencho Tenev", "Nikolay Yotov"]
   }
 }

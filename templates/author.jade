@@ -9,6 +9,28 @@ mixin author_info(authorName)
     else
       =authorName
 
+
+mixin author_bio(authorName)
+  - var author = contents._authors[authorName + '.json']
+  if author
+    li
+      figure
+        img(src=(author.metadata.photo_url ? author.metadata.photo_url : "/img/icons/unknown.gif"), alt=author.metadata.name)
+        figcaption
+          h3= author.metadata.name ? author.metadata.name : authorName
+          span.role= author.metadata.role ? author.metadata.role : "Committee Member"
+          .social
+            if author.metadata.facebook
+              a(href=author.metadata.facebook, target="_blank")
+                img(src="/img/icons/square-facebook-20.png", alt="Facebook")
+            if author.metadata.twitter
+              a(href=author.metadata.twitter, target="_blank")
+                img(src="/img/icons/square-twitter-20.png", alt="Twitter")
+            if author.metadata.linkedin
+              a(href=author.metadata.linkedin, target="_blank")
+                img(src="/img/icons/square-linkedin-20.png", alt="LinkedIn")
+
+
 mixin author_avatar(authorName)
   - var author = contents._authors[authorName + '.json']
   if author
