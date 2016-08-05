@@ -15,6 +15,7 @@ block content
           | ,
           | &nbsp;
           = moment(page.date).format('D MMMM YYYY')
+      hr
       section.content!= page.html
     a(name='comment')
     include comments
